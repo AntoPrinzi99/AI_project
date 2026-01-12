@@ -59,12 +59,6 @@ Example for 3x3:
 How to run A* (implementation_A.py)
 ---------------------------
 
-Show help:
-
-	python3 implementation_A.py --help
-
-
-
 Run experiments with multiple runs (if `--runs > 1`, a new random instance is generated each run):
 
 	python3 implementation_A.py --size 4 --random-moves 30 --runs 10 --seed 1 --heuristic misplaced
@@ -73,6 +67,12 @@ Run experiments with multiple runs (if `--runs > 1`, a new random instance is ge
 Change `--size 4` to `--size 5` for 5x5 problems.
 
 ---
+other commands
+
+Show help:
+
+	python3 implementation_A.py --help
+
 
 Other possibilities (implemented but not used in the reported experiments)
 
@@ -107,10 +107,6 @@ If `--runs > 1`, it also prints a final summary with mean values.
 How to run CSP/Z3 (CSP.py)
 ----------------------------
 
-Show help:
-
-	python3 CSP.py --help
-
 Generate a solvable instance by scrambling the goal and solve it with Z3:
 
 	python3 CSP.py --size 4 --random-moves 30 --seed 1 --max-steps 40
@@ -118,6 +114,12 @@ Generate a solvable instance by scrambling the goal and solve it with Z3:
 This is the command used for the CSP/Z3 experiment reported in the write-up (single run). A 10-run average is typically impractical here because CSP/Z3 can take minutes even for one non-trivial 4x4 instance at this scramble depth.
 
 ---
+
+Other commands
+
+Show help:
+
+	python3 CSP.py --help
 
 Other possibilities (implemented but not used in the reported experiments)
 
