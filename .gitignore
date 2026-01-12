@@ -1,0 +1,16 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# VS Code workspace settings
+.vscode/
+
+# OS / editor junk
+.DS_Store
+*.swp
