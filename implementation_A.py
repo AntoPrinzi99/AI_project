@@ -365,7 +365,7 @@ def _default_demo_initial(size: int) -> PuzzleState:
 	lst[-1], lst[-2] = lst[-2], lst[-1]
 	return tuple(lst)
 
-
+# I use this one in experiments
 def generate_scrambled_instance(size: int, moves: int, seed: Optional[int] = None) -> PuzzleState:
 	"""Generate a random *solvable* instance by applying random moves from the goal.
 

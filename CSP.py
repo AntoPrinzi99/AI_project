@@ -19,7 +19,7 @@ except Exception as e:  # pragma: no cover
 	)
 
 # Reuse domain utilities from implementation_A.py
-from implementation_A import (  # noqa: E402
+from implementation_A import (  
 	PuzzleAction,
 	PuzzleState,
 	_format_board,
